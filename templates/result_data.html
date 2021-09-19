@@ -1,0 +1,14 @@
+<!doctype html>  
+<html>  
+   <body>  
+      <p><strong>File Uploaded successfully. Confirm your details</strong></p>  
+      <table border = 5>  
+         {% for key, value in result.items() %}  
+            <tr>  
+               <th> {{ key }} </th>  
+               <td> {{ value }} </td>  
+            </tr>  
+         {% endfor %}  
+      </table>  
+   </body>  
+</html>  
